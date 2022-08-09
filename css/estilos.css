@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:solid;
+    font-style:inherit;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform:capitalize;
+    color: black;   
+    box-sizing:border-box;
+}
+body{
+    background-image: linear-gradient(to top, #255a40, #305b3d, #395b3b, #415c39, #495c38, #4e603d, #546442, #596847, #5e7153, #647b5f, #6a846b, #718e77);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.div__logo{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+.h1__index{
+    text-align: center;
+    font-size: normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h2__class{
+    font-size: smaller;
+}
+
+.h3__galeria{
+    align-items: center;
+    text-align: center;
+    align-content: space-between;
+}
+.ul__galeria{
+    padding: 20px;
+    text-align: center;
+    align-content: space-between;
+    align-items: center;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+form{
+    background-color: rgb(75, 88, 75);
+    border-radius: 10px;
+    color: rgba(156, 93, 93, 0.74);
+    font-size: 0.8em;
+    padding: 5px;
+    margin: 0 auto;
+    width: 290px;
+}
+
+input, textarea{
+    border: 0;
+    outline: none;
+    width: 280px;
+}
+
+.field{
+    border: solid 1px rgb(70, 43, 43);
+    padding: 10px;
+}
+
+.field:focus{
+    border-color: #323937;
+}
+
+.center-content{
+    text-align: center;
+}
+
+.li__historia{
+    justify-content: space-between;
+}
+
+
+.video__galeria{
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+/*inicio estilos main*/
+.main__nosotros{
+    padding: 20px;
+    margin: 0;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/*fin estilos main*/
+
+/*inicio estilos nav*/
+.nav__ul{
+    justify-content: space-around;
+    font-size:larger;
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 60%;
+    max-width: 100px;
+    margin:auto;   
+    height: 10%;
+}
+
+
+.nav__li{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 40px;
+    display:inline-block;
+    text-align: center;
+}
+
+.nav__li a:hover{
+    font-size: larger;
+    text-transform: uppercase;
+    text-decoration:none;
+    color: rgba(18, 43, 2, 0.578);
+    background-color: rgb(172, 170, 170);
+    border-radius: 3px;
+    padding:10px ;
+    display: block;
+}
+/*fin estilos nav*/
+
+/*inicio estilos main*/
+.main__index{
+    color: black;
+    font-style: initial;
+    justify-items: center;
+    text-align: center;
+}
+/*fin estilos main*/
+
+footer{
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    }
+    
+    
+    .body__animaciones{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        justify-content: center;
+        display: flex;
+        color: black;  
+        font-size:normal;
+        text-transform: uppercase;
+    }
+    
+    .video__animaciones{
+    height: 100vh;
+    width: auto;
+    object-fit: cover;
+    position: relative;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    .h1__animaciones{
+        font-size: 58px;
+        text-align:center;
+        justify-content:space-around;
+        justify-items:center;
+        color: white;
+        text-transform:initial;
+        
+    }
+    .text-1{
+        position: absolute;
+        top: middle;
+        left: middle;
+        text-align: center;
+        justify-content: center;
+        font-size: 90px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 15%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        letter-spacing: 10px;
+        z-index: 3;
+    }
+    
+    button{
+        height: 90px;
+        width: 100px;
+        background-color:rgb(133, 129, 74);
+        color: white;
+        border-radius: 15px;
+        font-size: 1.3rem;
+    }
+    button:hover{
+        box-shadow: 10px 10px 10px 5px #333;
+        font-size: larger;
+        text-transform: uppercase;
+        text-decoration:none;
+        color: rgba(18, 43, 2, 0.578);
+        background-color: rgb(172, 170, 170);
+        border-radius: 3px;
+        padding:10px ;
+        
+    }
